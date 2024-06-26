@@ -57,7 +57,7 @@ for attack_method in attack_methods:
     image_iter =0 
 
     for image_iter1 in range(1, 10000): 
-        if image_iter>=num_img:
+        if image_iter1>=num_img:
             break
         if len(str(image_iter1))==1:
             temp = "000"+ str(image_iter1)
