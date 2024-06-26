@@ -29,7 +29,7 @@ model_arc = 'resnet50'
 attack_methods = ['CGBA_H', 'CGBA']
 for attack_method in attack_methods:
     dim_reduc_factor=4
-    pair_num = 50
+    pair_num = 25
     iteration = 93
     
     
@@ -61,7 +61,7 @@ for attack_method in attack_methods:
     
     for i in range(1, 1000): 
         
-        idxs = np.random.choice(range(1,5000), 2)      #  Randomly picked indices of of two images
+        idxs = np.random.choice(range(1,50), 2)      #  Randomly picked indices of of two images
         
         if image_iter>=pair_num:
             break
