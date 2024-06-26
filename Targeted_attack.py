@@ -29,7 +29,7 @@ model_arc = 'resnet50'
 attack_methods = ['CGBA_H', 'CGBA']
 for attack_method in attack_methods:
     dim_reduc_factor=4
-    pair_num = 1000
+    pair_num = 50
     iteration = 93
     
     
